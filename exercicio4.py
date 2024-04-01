@@ -28,4 +28,4 @@ if compra > 200:
     desconto = compra * 0.80
     print("Você pagará o valor R$:{}".format(desconto))
 else:
-    print("Sua compra não possui desconto..")
+    print("Sua compra não possui desconto..o valor a pagar é de R${}".format(compra))
