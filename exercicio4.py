@@ -29,3 +29,19 @@ if compra > 200:
     print("Você pagará o valor R$:{}".format(desconto))
 else:
     print("Sua compra não possui desconto..o valor a pagar é de R${}".format(compra))
+
+
+#4- Escreva um programa em Python que solicite ao usuário os valores de três contas de consumo (p.ex. água, luz e telefone) e o valor de seu salário. Verifique se o salário ésuficiente para pagar as três contas, caso não seja apresente a mensagem “Salário insuficiente!”. Caso seja, apresente o valor que restou do salário após pagar as contas.#
+
+agua = float(input("Digite aqui o valor da conta de Água R$:"))
+luz = float(input("Digite aqui o valor da conta de Luz R$:"))
+telefone = float(input("Digite aqui o valor da conta de Telefone R$:"))
+salario = float(input("Digite o valor do salário R$:"))
+
+conta = agua + luz + telefone
+
+if salario > conta:
+    saldo = salario - conta
+    print("O valor que sobrou é de R${}".format(saldo))
+else:
+    print("Salário Insuficiente!!!")
