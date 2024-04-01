@@ -44,7 +44,7 @@ if salario > conta:
     saldo = salario - conta
     print("O valor que sobrou é de R${}".format(saldo))
 else:
-    print("Salário Insuficiente!!!")
+    print("Salário Insuficiente!..")
     
 #Testando clone do git. e alterações feitas nessa linha de comando e teste de conexão no Git Desktop.
 #Estou carregando essa linha pelo pelo Git Remoto
