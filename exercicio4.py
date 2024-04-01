@@ -46,4 +46,4 @@ if salario > conta:
 else:
     print("Salário Insuficiente!!!")
     
-#Testando clone do git. e alterações feitas nessa linha de comando.
+#Testando clone do git. e alterações feitas nessa linha de comando e teste de conexão no Git Desktop.
