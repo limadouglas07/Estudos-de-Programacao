@@ -1,4 +1,4 @@
-#1- Escreva um algoritmo que solicite um número ao usuário. Caso seja digitado um valorentre 0 e 9, mostre: “valor correto”, caso contrário mostre: “valor incorreto”
+#Digite um valor entre 0 e 9, mostre: “valor correto”, caso contrário mostre: “valor incorreto”
 
 n = int(input("Digite aqui um número:"))
 if n>=0 and n<=9:
@@ -18,3 +18,14 @@ if turno == "N" or turno == "n":
 else:
     horas = h * 37.50
     print("Suas horas trabalhadas foram de {}".format(horas))
+
+
+#3- Faça um programa em Python que obtenha o valor de uma compra, calcular e mostrar o valor da compra considerando o desconto, conforme descrito abaixo:para compras acima de R$ 200 a loja dá um desconto de 20% para as abaixo disso não tem desconto, mostre o valor da compra.
+
+compra = float(input("Digite aqui o valor da compra R$:"))
+
+if compra > 200:
+    desconto = compra * 0.80
+    print("Você pagará o valor R$:{}".format(desconto))
+else:
+    print("Sua compra não possui desconto..")
