@@ -14,4 +14,23 @@ elif parcelas == 8:
     total = (totalcompra * 1.12)/8
     print("O valor das duas parcelas de {} é R$ {:.2f}".format(parcelas, total))
 else:
-    print("Dados inválidos!!!!")    
+    print("Dados inválidos!!!!")   
+    
+    
+    
+# Programa para calcular o final da placa e imprimir o rodízio da semana.#
+
+placa = int(input("Digite aqui a sua placa:"))
+digito = placa % 10
+
+if digito == 1 or digito == 2:
+    rodizio = "Segunda-Feira"
+elif digito == 3 or digito == 4:
+    rodizio = "Terça-Feira"
+elif digito == 5 or digito == 6:
+    rodizio = "Quarta-Feira"
+elif digito == 7 or digito == 8:
+    rodizio = "Quinta-Feira"
+else:
+    rodizio = "Sexta-Feira"
+print("Este veículo está com rodízio na {} ".format(rodizio))
