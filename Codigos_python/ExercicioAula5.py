@@ -15,3 +15,4 @@ elif parcelas == 8:
     print("O valor das duas parcelas de {} é R$ {}".format(parcelas, total))
 else:
     print("Dados inválidos!!!!")
+    
