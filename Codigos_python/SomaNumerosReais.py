@@ -1,9 +1,10 @@
-print("Digite aqui dez número:")
 
-soma = 0.0
+
+soma = 0
 for i in range(10):
-    soma = soma + float(input("número %d:" % (i + 1)))
-    print(soma)
+    n = float(input("Digite aqui o número %d:"%(i+1)))
+    soma = soma + n
+print("A soma total dos números digitados é {}".format(soma))
     
     
 soma = 0
