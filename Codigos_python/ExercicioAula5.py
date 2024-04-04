@@ -14,5 +14,4 @@ elif parcelas == 8:
     total = (totalcompra * 1.12)/8
     print("O valor das duas parcelas de {} é R$ {}".format(parcelas, total))
 else:
-    print("Dados inválidos!!!!")
-    
+    print("Dados inválidos!!!!")    
