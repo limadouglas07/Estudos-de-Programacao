@@ -22,7 +22,7 @@ else:
 placa = int(input("Digite aqui a sua placa:"))
 digito = placa % 10
 
-if digito == 1 or digito == 2:
+if   digito == 1 or digito == 2:
     rodizio = "Segunda-Feira"
 elif digito == 3 or digito == 4:
     rodizio = "Terça-Feira"
