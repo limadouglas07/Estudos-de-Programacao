@@ -31,14 +31,18 @@ print("S = {}".format(contador))
 #positivos e quantos são negativos
 #Determine, também, qual é o menor desses valores. Utilize o comando de repetição que desejar.
 
+
 lista = []
 count = 0
 
 quant = int(input("Digite a quantiade de número que deseja digitar: "))
+
 while quant != count:
-   numero = lista.append(float(input("Digite um número: ")))
-   count += 1
+
+ numero = lista.append(float(input("Digite um número: ")))
+ count += 1
 print("Lista: ", lista, "\nMaior: ", max(lista), "\nMenor: ", min(lista))
+
 
 
 # 5- Temos um grupo de pessoas. Escreva um programa em Python que leia o sexo e a altura de cada pessoa,
