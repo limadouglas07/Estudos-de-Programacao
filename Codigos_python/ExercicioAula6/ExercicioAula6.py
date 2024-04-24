@@ -1,5 +1,5 @@
 # 1- Faça um programa em Python que imprima os números pares entre 0 e 100
-#contador = 0
+contador = 0
 
 while contador <= 100:
    print(contador)
@@ -50,7 +50,7 @@ alturaMulher = 0
 homem = 0
 mulher = 0
 for cont in range(1, 5):
-    sexo = input('Masculino ou Feminino ? [M/F]').upper()[0]
+    sexo = input('Masculino ou Feminino ? [M/F]').upper()
     altura = float(input('Digite a sua altura : '))
     print('-'*20)
     if sexo == 'M':
